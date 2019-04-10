@@ -5,9 +5,9 @@ class App extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      selected: null,
-      randomColor: null,
-      message: null,
+      selected: '',
+      randomColor: '',
+      message: '',
       gameOver: false
     }
     this.red = React.createRef()
